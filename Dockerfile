@@ -1,6 +1,6 @@
-FROM python:3.10-alpine3.13
+FROM python:3.10-alpine3.16
 RUN ["apk", "add", "--update", \
-  "musl-dev", "gcc", "make", \
+  "musl-dev", "gcc", "g++", "make", \
   "nodejs", "npm", "sassc", \
   "libxml2-dev", "libxslt-dev", \
   "imagemagick6-dev", \
