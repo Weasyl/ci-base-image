@@ -17,4 +17,4 @@ RUN ["apk", "add", "--update", \
 # github.com/actions/cache uses --posix, which breaks busybox tar
 RUN ["apk", "add", "tar"]
 # for Codecov
-RUN ["apk", "add", "bash", "curl"]
+RUN ["apk", "add", "bash", "curl", "git"]
